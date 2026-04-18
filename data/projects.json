@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "ShieldX - Disaster Management",
+        "category": "web",
+        "image": "../assets/img/project-shieldx.png",
+        "description": "A disaster management platform conceptualized for the Smart India Hackathon to provide real-time updates and resource tracking.",
+        "techStack": ["HTML", "Bootstrap", "JS", "CSS"],
+        "github": "https://github.com/Hammadrizvi346",
+        "live": "#"
+    },
+    {
+        "id": 2,
+        "title": "Data Analysis & Visualization",
+        "category": "data",
+        "image": "../assets/img/profile.jpg", 
+        "description": "Cleaned, analyzed, and visualized complex datasets to find meaningful patterns and business insights.",
+        "techStack": ["Python", "Pandas", "Matplotlib"],
+        "github": "https://github.com/Hammadrizvi346",
+        "live": "#"
+    },
+    {
+        "id": 3,
+        "title": "Java DSA Problem Set",
+        "category": "java",
+        "image": "../assets/img/profile.jpg",
+        "description": "A structured repository containing optimized solutions for various Data Structures and Algorithms problems.",
+        "techStack": ["Java", "OOPs", "Algorithms"],
+        "github": "https://github.com/Hammadrizvi346",
+        "live": "#"
+    }
+]

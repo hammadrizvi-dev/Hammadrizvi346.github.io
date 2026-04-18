@@ -59,3 +59,21 @@
     transition: width 1.5s ease-in-out;
     border-radius: 4px;
 }
+
+/* --- PROJECTS PAGE STYLING --- */
+.project-card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(13, 110, 253, 0.2) !important;
+}
+
+.filter-btn {
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-weight: 600;
+}
