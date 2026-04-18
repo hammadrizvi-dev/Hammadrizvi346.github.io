@@ -44,3 +44,29 @@ This portfolio isn't just a static page; it's a reflection of my core competenci
 ├── 📁 sections           <-- Sub-pages (About, Skills, Projects, Contact)
 ├── index.html            <-- Main Entry Point
 └── README.md             <-- You are here!
+
+## 🎮 Beyond The Code
+
+I believe in being a well-rounded individual. When I'm not debugging or analyzing data, I am:
+
+* **HaRiz:** An avid PC Gamer exploring strategic and competitive titles.
+* **KKR Fan:** A die-hard supporter of Kolkata Knight Riders (Ami KKR!).
+* **Visual Storyteller:** Creating high-quality video content using Pr & AE.
+
+---
+
+## 📈 Future Vision
+
+My current roadmap involves mastering **Artificial Intelligence** and preparing for top-tier software engineering placements by June. I'm actively looking for internships and collaborative open-source projects.
+
+---
+
+## 🤝 Connect With Me
+
+* **LinkedIn:** [hammadrizvi-dev](https://www.linkedin.com/in/hammadrizvi-dev)
+* **Instagram:** [hammadrixvi.dev](https://www.instagram.com/hammadrixvi.dev)
+* **Twitter/X:** [@hammadrizvi_dev](https://x.com/hammadrizvi_dev)
+* **Email:** [hammadrizvi346@gmail.com](mailto:hammadrizvi346@gmail.com)
+
+---
+*Built with ❤️ and Logic by Hammad Rizvi.*
