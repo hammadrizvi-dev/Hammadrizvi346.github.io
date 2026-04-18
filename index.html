@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hammad Rizvi | Portfolio</title>
     
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
 </head>
-<body class="bg-dark text-light">
+<body>
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav">
         <div class="container">
-            <a class="navbar-brand fw-bold fs-3" href="index.html">Hammad<span class="text-primary">.dev</span></a>
+            <a class="navbar-brand fw-bold fs-3" href="index.html">Hammad<span class="text-gradient">.dev</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,49 +34,241 @@
     </nav>
 
     <header class="d-flex align-items-center vh-100 hero-bg">
-        <div class="container text-center text-md-start mt-5">
+        <div class="container text-center text-lg-start mt-5">
             <div class="row align-items-center">
                 
-                <div class="col-md-7" data-aos="fade-up" data-aos-duration="1200">
-                    <p class="text-primary fw-bold mb-2 fs-5">👋 Hello, World! I am</p>
-                    <h1 class="display-2 fw-bolder mb-2">Hammad Rizvi</h1>
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1200">
+                    <p class="text-info fw-bold mb-2 fs-5"><i class="fas fa-terminal me-2"></i>System.out.println("Hello, World!");</p>
+                    <h1 class="display-3 fw-bolder mb-2">Hammad Rizvi</h1>
                     
-                    <h2 class="h4 text-info mb-3">
-                        <span class="txt-rotate" data-period="2000" data-rotate='[ "Computer Science Student.", "Python & Data Science Enthusiast.", "Java & DSA Problem Solver.", "Full-Stack Web Developer." ]'></span>
+                    <h2 class="h4 text-primary mb-4" style="min-height: 30px;">
+                        <span class="txt-rotate" data-period="2000" data-rotate='[ "B.Tech CSD Student.", "Exploring AI & Data Science.", "Java & DSA Problem Solver.", "Creative Web Developer." ]'></span>
                     </h2>
-                    
-                    <div class="mb-4">
-                        <span class="badge bg-secondary border border-light me-2">Python</span>
-                        <span class="badge bg-secondary border border-light me-2">Java</span>
-                        <span class="badge bg-secondary border border-light me-2">Data Science</span>
-                        <span class="badge bg-secondary border border-light">Web Dev</span>
-                    </div>
 
-                    <p class="lead mb-4 text-light opacity-75">Building scalable web applications, exploring data-driven solutions, and writing clean, efficient code. Preparing to solve real-world problems through technology.</p>
+                    <p class="lead mb-5 opacity-75" style="color: var(--text-muted);">Currently in my 2nd year of Engineering. I focus on writing clean code, maintaining strong academics, and building skills to secure a high-impact tech role in the future.</p>
                     
-                    <div class="d-flex gap-3 justify-content-center justify-content-md-start mb-4">
-                        <a href="sections/projects.html" class="btn btn-primary btn-lg px-4 rounded-pill shadow-lg">View My Work</a>
-                        <a href="assets/docs/Hammad_Rizvi_CV.pdf" target="_blank" class="btn btn-outline-light btn-lg px-4 rounded-pill">Download CV <i class="fas fa-download ms-2"></i></a>
+                    <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start mb-4">
+                        <a href="sections/projects.html" class="btn btn-primary btn-lg px-4 rounded-pill">View Projects</a>
+                        <a href="assets/docs/Hammad_Rizvi_CV.pdf" target="_blank" class="btn btn-outline-info btn-lg px-4 rounded-pill">Resume <i class="fas fa-download ms-2"></i></a>
                     </div>
-
-                    <div class="d-flex gap-4 justify-content-center justify-content-md-start fs-3">
-                        <a href="https://github.com/Hammadrizvi346" target="_blank" class="text-light social-icon-link"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/hammadrizvi346" target="_blank" class="text-primary social-icon-link"><i class="fab fa-linkedin"></i></a>
-                        <a href="mailto:hammadrizvi346@gmail.com" class="text-danger social-icon-link"><i class="fas fa-envelope"></i></a>
+                    
+                    <div class="d-flex gap-3 justify-content-center justify-content-lg-start fs-4 mt-4">
+                        <a href="https://github.com/hammadrizvi-dev" target="_blank" class="text-light" style="transition: color 0.3s;" onmouseover="this.style.color='#06b6d4'" onmouseout="this.style.color='#f8fafc'"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/hammadrizvi-dev" target="_blank" class="text-light" style="transition: color 0.3s;" onmouseover="this.style.color='#3b82f6'" onmouseout="this.style.color='#f8fafc'"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/hammadrizvi_dev" target="_blank" class="text-light" style="transition: color 0.3s;" onmouseover="this.style.color='#cbd5e1'" onmouseout="this.style.color='#f8fafc'"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
                 
-                <div class="col-md-5 d-none d-md-block text-center" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
-                    <img src="assets/img/profile.jpg" alt="Hammad Rizvi" class="img-fluid rounded-circle shadow-lg profile-img-custom">
+                <div class="col-lg-6 d-none d-lg-block" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-dot dot-red"></div>
+                            <div class="terminal-dot dot-yellow"></div>
+                            <div class="terminal-dot dot-green"></div>
+                        </div>
+                        <div class="terminal-body">
+                            <p><span class="term-keyword">const</span> <span class="term-function">hammad</span> = {</p>
+                            <p>&nbsp;&nbsp;role: <span class="term-string">'Software Engineering Student'</span>,</p>
+                            <p>&nbsp;&nbsp;skills: [<span class="term-string">'Java'</span>, <span class="term-string">'Python'</span>, <span class="term-string">'Web Dev'</span>],</p>
+                            <p>&nbsp;&nbsp;currentlyExploring: <span class="term-string">'Artificial Intelligence'</span>,</p>
+                            <p>&nbsp;&nbsp;academicGoal: <span class="term-string">'Top Tier Placement'</span>,</p>
+                            <p>&nbsp;&nbsp;<span class="term-function">code</span>() {</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="term-keyword">return</span> <span class="term-string">'Building logic step-by-step.'</span>;</p>
+                            <p>&nbsp;&nbsp;}</p>
+                            <p>};</p>
+                            <p class="mt-3"><span class="text-success">></span> hammad.code(); <span class="text-light blink">_</span></p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
         </div>
     </header>
 
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5" data-aos="fade-down">
+                <h2 class="display-5 fw-bold"><span class="text-gradient">Core Architecture</span></h2>
+                <p class="lead opacity-75">Detailed breakdown of my technical stack and current learning curve.</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+                    <div class="premium-card">
+                        <div class="d-flex justify-content-between align-items-start mb-3">
+                            <div>
+                                <h3 class="fw-bold">AI & Data Science</h3>
+                                <p class="opacity-75 mb-2">My primary career objective. Currently mastering data manipulation to step into Machine Learning.</p>
+                            </div>
+                            <i class="fas fa-network-wired text-info fs-1 opacity-50"></i>
+                        </div>
+                        <ul class="text-secondary small mb-4">
+                            <li><i class="fas fa-check text-success me-2"></i> Proficient in <strong>Python</strong> scripting and automation.</li>
+                            <li><i class="fas fa-check text-success me-2"></i> Strong grip on <strong>Pandas, NumPy, and Matplotlib</strong> for EDA.</li>
+                            <li><i class="fas fa-location-arrow text-primary me-2"></i> Next Goal: Exploring scikit-learn and foundational AI models.</li>
+                        </ul>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge bg-dark border border-secondary p-2">Python 3</span>
+                            <span class="badge bg-dark border border-secondary p-2">Pandas</span>
+                            <span class="badge bg-dark border border-info text-info p-2">Data Viz</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="premium-card text-center d-flex flex-column justify-content-center">
+                        <i class="fab fa-java text-danger fs-1 mb-3"></i>
+                        <h4 class="fw-bold">Java & Core DSA</h4>
+                        <p class="small opacity-75 mb-3">Strong logic building is crucial. I regularly practice DSA to crack product-based company interviews.</p>
+                        <span class="badge bg-dark border border-danger text-danger p-2 mx-auto">Problem Solving</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="premium-card">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-laptop-code text-primary fs-2 me-3"></i>
+                            <h4 class="fw-bold m-0">Full-Stack Web Dev</h4>
+                        </div>
+                        <p class="opacity-75">Building responsive, user-friendly websites. Blending backend logic with modern front-end design.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="premium-card">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-pen-nib text-success fs-2 me-3"></i>
+                            <h4 class="fw-bold m-0">CS & Design Student</h4>
+                        </div>
+                        <p class="opacity-75">As a CSD student, I don't just write code that works; I design systems that look and feel great to the end user.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" style="background-color: var(--bg-surface);">
+        <div class="container py-5">
+            <div class="text-center mb-5" data-aos="fade-down">
+                <h2 class="display-5 fw-bold">Beyond The Code</h2>
+                <p class="lead opacity-75">Click on any card to explore my creative and athletic side.</p>
+            </div>
+            
+            <div class="row g-4 text-center">
+                <div class="col-md-4" data-aos="flip-left" data-aos-delay="100">
+                    <div class="premium-card clickable-card pb-5" style="border-top: 4px solid var(--gamer-red);" data-bs-toggle="modal" data-bs-target="#gamingModal">
+                        <i class="fas fa-headset fs-1 mb-3" style="color: var(--gamer-red);"></i>
+                        <h4 class="fw-bold">PC Gamer <span class="badge bg-danger ms-1">HaRiz</span></h4>
+                        <p class="opacity-75 mt-3 small">A massive PC gaming enthusiast. Gaming sharpens my reflexes and strategy.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="flip-left" data-aos-delay="200">
+                    <div class="premium-card clickable-card pb-5" style="border-top: 4px solid var(--kkr-purple);" data-bs-toggle="modal" data-bs-target="#cricketModal">
+                        <i class="fas fa-trophy fs-1 mb-3" style="color: #a855f7;"></i>
+                        <h4 class="fw-bold">Cricket & KKR</h4>
+                        <p class="opacity-75 mt-3 small">Field athlete and a die-hard Kolkata Knight Riders fan.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="flip-left" data-aos-delay="300">
+                    <div class="premium-card clickable-card pb-5" style="border-top: 4px solid var(--accent);" data-bs-toggle="modal" data-bs-target="#editingModal">
+                        <i class="fas fa-video fs-1 mb-3" style="color: var(--accent);"></i>
+                        <h4 class="fw-bold">Video Editor</h4>
+                        <p class="opacity-75 mt-3 small">Pr & AE specialist. Currently setting up my YouTube storytelling channels.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 position-relative overflow-hidden">
+        <div class="position-absolute top-50 start-50 translate-middle w-100 h-100" style="background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 60%); z-index: -1;"></div>
+        
+        <div class="container py-5" data-aos="fade-up">
+            <div class="premium-card text-center p-md-5" style="border: 1px solid rgba(59, 130, 246, 0.3);">
+                <h2 class="display-4 fw-bolder mb-4">Ready to Build the Future?</h2>
+                <p class="lead opacity-75 mb-5 mx-auto" style="max-width: 700px;">
+                    Whether you want to discuss Artificial Intelligence, collaborate on a web project, or just talk about the latest KKR match — my inbox is always open. Let's create something amazing.
+                </p>
+                
+                <div class="d-flex flex-wrap gap-3 justify-content-center mb-4">
+                    <a href="sections/contact.html" class="btn btn-primary btn-lg px-5 py-3 rounded-pill shadow-lg fw-bold fs-5">Say Hello <i class="fas fa-paper-plane ms-2"></i></a>
+                    <a href="https://github.com/hammadrizvi-dev" target="_blank" class="btn btn-outline-light btn-lg px-4 py-3 rounded-pill fs-5"><i class="fab fa-github me-2"></i>GitHub</a>
+                    <a href="https://www.linkedin.com/in/hammadrizvi-dev" target="_blank" class="btn btn-outline-info btn-lg px-4 py-3 rounded-pill fs-5"><i class="fab fa-linkedin me-2"></i>LinkedIn</a>
+                </div>
+
+                <div class="d-flex gap-4 justify-content-center fs-4 mt-4 opacity-75">
+                    <a href="https://x.com/hammadrizvi_dev" target="_blank" class="text-light hover-scale"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/hammadrizvi.dev" target="_blank" class="text-light hover-scale"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/hammadrizvi.dev" target="_blank" class="text-light hover-scale"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="gamingModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold text-danger"><i class="fas fa-headset me-2"></i>The Gamer: HaRiz</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>When the compiler rests, the games begin. Gaming is my ultimate way to reset my mind.</p>
+                    <ul>
+                        <li><strong>Strategic Thinking:</strong> Multiplayer games teach quick decision-making.</li>
+                        <li><strong>Community:</strong> Building connections with gamers worldwide.</li>
+                        <li><strong>Setup:</strong> Constantly upgrading my PC to handle both intense coding algorithms and high-FPS gaming.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="cricketModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold" style="color: #a855f7;"><i class="fas fa-cricket-bat-ball me-2"></i>Korbo, Lorbo, Jeetbo!</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>I believe physical activity is just as important as mental exercise.</p>
+                    <ul>
+                        <li><strong>On the Field:</strong> I actively play cricket, focusing on teamwork and stamina.</li>
+                        <li><strong>IPL Passion:</strong> Huge supporter of KKR. I love analyzing match strategies, player auctions, and team dynamics.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editingModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold text-info"><i class="fas fa-film me-2"></i>Visual Storytelling</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Writing code builds the system, but video editing tells the story.</p>
+                    <ul>
+                        <li><strong>Software:</strong> Adobe Premiere Pro & After Effects.</li>
+                        <li><strong>The Vision:</strong> I am currently building content strategies for upcoming YouTube channels, blending tech knowledge with engaging visuals.</li>
+                        <li><strong>VFX:</strong> Learning motion graphics to make my content stand out.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <footer class="text-center py-4 border-top border-secondary mt-auto" style="background-color: #03050a;">
+    <p class="opacity-50 m-0 mb-3">&copy; 2026 Hammad Rizvi. Designed with <i class="fas fa-code text-primary mx-1"></i> & Chai.</p>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    
     <script src="assets/js/main.js"></script>
 </body>
 </html>

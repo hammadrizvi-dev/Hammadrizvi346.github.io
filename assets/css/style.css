@@ -1,112 +1,190 @@
-/* --- HERO SECTION & NAVBAR --- */
+/* =========================================
+   HAMMAD.DEV - PROFESSIONAL DARK TECH THEME (COMPLETE FILE)
+========================================= */
 
-/* Glassmorphism Navbar */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&family=Fira+Code:wght@400;500&display=swap');
+
+:root {
+    --bg-dark: #050810;        /* Deep Space Black/Navy */
+    --bg-surface: #0f1523;     /* Card Background */
+    --bg-surface-hover: #161e31;
+    --primary: #3b82f6;        /* Bright Tech Blue */
+    --accent: #06b6d4;         /* Neon Cyan */
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --gamer-red: #ef4444;
+    --kkr-purple: #4c1d95;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* --- Typography Upgrades --- */
+.display-large { font-size: 4rem; font-weight: 800; }
+.heading-premium { font-size: 1.5rem; color: #cbd5e1; opacity: 0.9; }
+
+/* --- Center Section Numbering --- */
+.numbered-heading {
+    text-align: center !important;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+/* --- Navbar Upgrade --- */
 .glass-nav {
-    background: rgba(15, 23, 42, 0.85) !important;
-    backdrop-filter: blur(10px);
+    background: rgba(5, 8, 16, 0.8) !important;
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 15px 0;
 }
 
-/* Hero Background Gradient */
+.nav-link { font-weight: 500; transition: color 0.3s ease; }
+.nav-link:hover, .nav-link.active { color: var(--accent) !important; }
+
+/* --- Hero Section Background --- */
 .hero-bg {
-    background: radial-gradient(circle at top right, #1e293b, #0f172a);
+    background: radial-gradient(circle at top right, rgba(6, 182, 212, 0.15), transparent 40%),
+                radial-gradient(circle at bottom left, rgba(59, 130, 246, 0.15), transparent 40%);
 }
 
-/* Custom Profile Image Styling */
-.profile-img-custom {
-    width: 350px; 
-    height: 350px; 
-    object-fit: cover; 
-    border: 5px solid #0d6efd; 
-    padding: 5px; 
-    background: rgba(255,255,255,0.1);
-}
-
-/* Social Icons Hover Animation */
-.social-icon-link {
-    transition: transform 0.3s ease;
-}
-
-.social-icon-link:hover {
-    transform: scale(1.2);
-}
-
-/* Typing Effect Cursor */
-.txt-rotate > .wrap { 
-    border-right: 0.08em solid #0d6efd; /* Blue cursor */
-}
-
-/* Navbar Active State */
-.nav-link.active {
-    color: var(--bs-primary) !important;
-    font-weight: 600;
-}
-
-/* --- SKILLS PAGE STYLING --- */
-
-/* Skill Card Hover Effect */
-.skill-card {
+/* --- Terminal UI (Scroll 1) --- */
+.terminal-window {
+    background-color: #0b0f19;
     border-radius: 12px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.skill-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4) !important;
-}
-
-/* Progress Bar Smooth Animation */
-.progress-bar {
-    transition: width 1.5s ease-in-out;
-    border-radius: 4px;
-}
-
-/* --- PROJECTS PAGE STYLING --- */
-.project-card {
-    border-radius: 12px;
+    box-shadow: 0 25px 50px -12px rgba(6, 182, 212, 0.25);
+    border: 1px solid rgba(255,255,255,0.1);
+    font-family: 'Fira Code', monospace;
     overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.terminal-header { background-color: #1e293b; padding: 12px; display: flex; gap: 8px; }
+.terminal-dot { width: 12px; height: 12px; border-radius: 50%; }
+.dot-red { background-color: #ff5f56; }
+.dot-yellow { background-color: #ffbd2e; }
+.dot-green { background-color: #27c93f; }
+.terminal-body { padding: 25px; color: #cbd5e1; font-size: 0.95rem; }
+.term-keyword { color: #c678dd; } 
+.term-string { color: #98c379; }  
+.term-function { color: #61afef; } 
+
+/* --- Premium & Clickable Cards (Scroll 2, 3, 4) --- */
+.premium-card, .premium-card-lg {
+    background-color: var(--bg-surface);
+    border: 1px solid rgba(255,255,255,0.05);
+    border-radius: 16px;
+    padding: 30px;
+    transition: all 0.4s ease;
+    height: 100%;
+}
+.premium-card:hover, .premium-card-lg:hover {
+    transform: translateY(-5px);
+    background-color: var(--bg-surface-hover);
+    border-color: rgba(6, 182, 212, 0.3);
+    box-shadow: 0 10px 30px rgba(6, 182, 212, 0.1);
 }
 
-.project-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(13, 110, 253, 0.2) !important;
+.premium-card-lg { padding: 40px; } /* Lighter text for large card on Home */
+
+.clickable-card {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
 }
 
-.filter-btn {
-    border-radius: 20px;
-    padding: 8px 20px;
+.clickable-card::after {
+    content: 'Click for details →';
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--accent);
+    font-size: 0.9rem;
     font-weight: 600;
+    transition: bottom 0.3s ease;
 }
 
-/* --- CONTACT PAGE STYLING --- */
-.icon-box {
-    width: 50px;
-    height: 50px;
-    background: rgba(13, 110, 253, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.clickable-card:hover::after {
+    bottom: 20px;
+}
+
+/* --- Skills Page Dashboard - Glowing Bars --- */
+.progress {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    height: 10px;
+    overflow: visible;
+}
+
+.progress-bar-glow {
+    border-radius: 10px;
+    position: relative;
+    transition: width 1.5s ease-in-out;
+}
+
+.progress-bar-glow::after {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px inherit;
+    opacity: 0.8;
+}
+
+/* Specific Colors for Glow */
+.bg-python { background-color: #f59e0b; box-shadow: 0 0 10px #f59e0b; }
+.bg-java { background-color: #ef4444; box-shadow: 0 0 10px #ef4444; }
+.bg-web { background-color: #3b82f6; box-shadow: 0 0 10px #3b82f6; }
+.bg-data { background-color: #06b6d4; box-shadow: 0 0 10px #06b6d4; }
+
+/* --- Bento Grid / Bento Box Designs --- */
+/* (Generic bento box structure handled by Bootstrap row/col) */
+
+/* --- Interactive Elements --- */
+.hover-scale { transition: transform 0.3s ease; }
+.hover-scale:hover { transform: scale(1.1); }
+
+/* Custom Gradient Text */
+.text-gradient {
+    background: linear-gradient(to right, var(--accent), var(--primary));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Modal Dark Theme Customization */
+.modal-content {
+    background-color: var(--bg-surface);
+    border: 1px solid rgba(6, 182, 212, 0.3);
+    color: var(--text-main);
+    border-radius: 16px;
+}
+.modal-header { border-bottom: 1px solid rgba(255,255,255,0.05); }
+.modal-footer { border-top: 1px solid rgba(255,255,255,0.05); }
+.btn-close-white { filter: invert(1) grayscale(100%) brightness(200%); }
+
+/* Custom Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-dark); }
+::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+
+/* --- CONTACT FORM PREMIUM STYLING --- */
+.form-control {
+    background-color: rgba(255,255,255,0.05) !important;
+    border: 1px solid rgba(255,255,255,0.1) !important;
+    color: var(--text-main) !important;
+    padding: 15px;
     border-radius: 12px;
 }
-
 .form-control:focus {
-    background-color: #1e293b !important;
-    border-color: #0d6efd;
-    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
-    color: white !important;
+    background-color: rgba(15, 21, 35, 0.9) !important;
+    border-color: var(--primary) !important;
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.2) !important;
 }
-
-/* Custom scrollbar for better UX */
-::-webkit-scrollbar {
-    width: 8px;
-}
-::-webkit-scrollbar-track {
-    background: #0f172a;
-}
-::-webkit-scrollbar-thumb {
-    background: #1e293b;
-    border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-    background: #0d6efd;
+.form-control::placeholder {
+    color: rgba(255,255,255,0.3) !important;
 }

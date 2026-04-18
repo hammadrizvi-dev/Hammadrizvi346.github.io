@@ -1,32 +1,42 @@
 [
     {
         "id": 1,
-        "title": "ShieldX - Disaster Management",
+        "title": "Chatify - E2EE Messenger",
         "category": "web",
-        "image": "../assets/img/project-shieldx.png",
-        "description": "A disaster management platform conceptualized for the Smart India Hackathon to provide real-time updates and resource tracking.",
-        "techStack": ["HTML", "Bootstrap", "JS", "CSS"],
-        "github": "https://github.com/Hammadrizvi346",
+        "image": "../assets/img/chatify.png",
+        "description": "A real-time messenger application built for a Tech Fest. Features End-to-End Encryption (E2EE) to ensure secure, private, and fast communication.",
+        "techStack": ["WebSockets", "E2EE", "JavaScript", "UI/UX"],
+        "github": "https://github.com/hammadrizvi-dev/Chatify.git",
         "live": "#"
     },
     {
         "id": 2,
-        "title": "Data Analysis & Visualization",
-        "category": "data",
-        "image": "../assets/img/profile.jpg", 
-        "description": "Cleaned, analyzed, and visualized complex datasets to find meaningful patterns and business insights.",
-        "techStack": ["Python", "Pandas", "Matplotlib"],
-        "github": "https://github.com/Hammadrizvi346",
+        "title": "ShieldX - Disaster Management",
+        "category": "web",
+        "image": "https://images.unsplash.com/photo-1584483768567-46dc14bf821e?q=80&w=600&auto=format&fit=crop",
+        "description": "A disaster management platform conceptualized for the Smart India Hackathon to provide real-time updates and resource tracking.",
+        "techStack": ["HTML", "Bootstrap", "JS"],
+        "github": "https://github.com/hammadrizvi-dev",
         "live": "#"
     },
     {
         "id": 3,
+        "title": "Data Analytics Pipeline",
+        "category": "data",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop",
+        "description": "Cleaned, analyzed, and visualized complex datasets using Python to find meaningful patterns and business insights.",
+        "techStack": ["Python", "Pandas", "Matplotlib"],
+        "github": "https://github.com/hammadrizvi-dev",
+        "live": "#"
+    },
+    {
+        "id": 4,
         "title": "Java DSA Problem Set",
         "category": "java",
-        "image": "../assets/img/profile.jpg",
-        "description": "A structured repository containing optimized solutions for various Data Structures and Algorithms problems.",
-        "techStack": ["Java", "OOPs", "Algorithms"],
-        "github": "https://github.com/Hammadrizvi346",
+        "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=600&auto=format&fit=crop",
+        "description": "A structured repository containing highly optimized solutions for various Data Structures and Algorithms problems.",
+        "techStack": ["Java", "OOPs", "Logic Building"],
+        "github": "https://github.com/hammadrizvi-dev",
         "live": "#"
     }
 ]
