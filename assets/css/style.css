@@ -77,3 +77,36 @@
     padding: 8px 20px;
     font-weight: 600;
 }
+
+/* --- CONTACT PAGE STYLING --- */
+.icon-box {
+    width: 50px;
+    height: 50px;
+    background: rgba(13, 110, 253, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.form-control:focus {
+    background-color: #1e293b !important;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    color: white !important;
+}
+
+/* Custom scrollbar for better UX */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #0d6efd;
+}
