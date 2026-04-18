@@ -2,7 +2,7 @@
 
 Welcome to the official repository of my developer portfolio. This is a high-performance, responsive, and dynamic website designed to showcase my journey as a **Computer Science & Design student**, a **Data Science enthusiast**, and a **Creative Technologist**.
 
-🔗 **Live Demo:** [https://hammadrizvi-dev.github.io/](https://hammadrizvi-dev.github.io/)
+🔗 **Live Demo:** [https://hammadrizvi-dev.github.io/](https://hammadrizvi.me)
 
 ---
 
