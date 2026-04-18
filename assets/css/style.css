@@ -34,3 +34,10 @@
 .txt-rotate > .wrap { 
     border-right: 0.08em solid #0d6efd; /* Blue cursor */
 }
+
+/* Navbar Active State */
+.nav-link.active {
+    color: var(--bs-primary) !important;
+    font-weight: 600;
+}
+
