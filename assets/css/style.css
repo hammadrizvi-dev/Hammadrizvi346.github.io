@@ -41,3 +41,21 @@
     font-weight: 600;
 }
 
+/* --- SKILLS PAGE STYLING --- */
+
+/* Skill Card Hover Effect */
+.skill-card {
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Progress Bar Smooth Animation */
+.progress-bar {
+    transition: width 1.5s ease-in-out;
+    border-radius: 4px;
+}
