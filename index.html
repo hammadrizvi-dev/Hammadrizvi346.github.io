@@ -3,70 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hammad Rizvi - Portfolio</title>
+    <title>Hammad Rizvi | Portfolio</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
 </head>
-<body>
+<body class="bg-dark text-light">
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Hammad Rizvi</a>
+            <a class="navbar-brand fw-bold fs-3" href="index.html">Hammad<span class="text-primary">.dev</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-               <ul class="navbar-nav ms-auto">
-    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
-    <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
-    
-    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-    
-    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-</ul>
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sections/about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sections/skills.html">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sections/projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sections/contact.html">Contact</a></li>
+                </ul>
             </div>
         </div>
     </nav>
 
-    <header class="hero-section">
-        <div class="container">
-            <h1>Hammad Rizvi</h1>
-            <p>Data Analyst | Full-Stack Developer | B.Tech CSD Student</p>
+    <header class="d-flex align-items-center vh-100 hero-bg">
+        <div class="container text-center text-md-start mt-5">
+            <div class="row align-items-center">
+                
+                <div class="col-md-7" data-aos="fade-up" data-aos-duration="1200">
+                    <p class="text-primary fw-bold mb-2 fs-5">👋 Hello, World! I am</p>
+                    <h1 class="display-2 fw-bolder mb-2">Hammad Rizvi</h1>
+                    
+                    <h2 class="h4 text-info mb-3">
+                        <span class="txt-rotate" data-period="2000" data-rotate='[ "Computer Science Student.", "Python & Data Science Enthusiast.", "Java & DSA Problem Solver.", "Full-Stack Web Developer." ]'></span>
+                    </h2>
+                    
+                    <div class="mb-4">
+                        <span class="badge bg-secondary border border-light me-2">Python</span>
+                        <span class="badge bg-secondary border border-light me-2">Java</span>
+                        <span class="badge bg-secondary border border-light me-2">Data Science</span>
+                        <span class="badge bg-secondary border border-light">Web Dev</span>
+                    </div>
+
+                    <p class="lead mb-4 text-light opacity-75">Building scalable web applications, exploring data-driven solutions, and writing clean, efficient code. Preparing to solve real-world problems through technology.</p>
+                    
+                    <div class="d-flex gap-3 justify-content-center justify-content-md-start mb-4">
+                        <a href="sections/projects.html" class="btn btn-primary btn-lg px-4 rounded-pill shadow-lg">View My Work</a>
+                        <a href="assets/docs/Hammad_Rizvi_CV.pdf" target="_blank" class="btn btn-outline-light btn-lg px-4 rounded-pill">Download CV <i class="fas fa-download ms-2"></i></a>
+                    </div>
+
+                    <div class="d-flex gap-4 justify-content-center justify-content-md-start fs-3">
+                        <a href="https://github.com/Hammadrizvi346" target="_blank" class="text-light social-icon-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/hammadrizvi346" target="_blank" class="text-primary social-icon-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:hammadrizvi346@gmail.com" class="text-danger social-icon-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-md-5 d-none d-md-block text-center" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
+                    <img src="assets/img/profile.jpg" alt="Hammad Rizvi" class="img-fluid rounded-circle shadow-lg profile-img-custom">
+                </div>
+
+            </div>
         </div>
     </header>
 
-   <section id="about" class="container">
-    <h2 class="section-title">About Me</h2>
-    <div class="row align-items-center">
-        <div class="col-md-4 text-center">
-            <img src="profile.jpg" class="img-fluid rounded-circle" alt="Hammad Rizvi" style="width: 200px; height: 200px; object-fit: cover;">
-        </div>
-        <div class="col-md-8">
-            <p class="lead">
-                I am a passionate and dedicated B.Tech student at the World College of Technology and Management, specializing in Computer Science and Design. My journey in technology is driven by a deep curiosity for Data Science and Full-Stack Development. I am actively building a strong foundation in Python, Java, and web technologies, with a core focus on turning complex problems into elegant, data-driven solutions.
-            </p>
-            <p class="lead">
-                I believe in a hands-on approach to learning. Currently, I am applying my analytical skills by working on data analysis projects using Pandas and Matplotlib. My recent experience includes conceptualizing 'ShieldX,' a disaster management platform for the Smart India Hackathon, which reflects my ambition to solve real-world challenges. I am eager to continue learning, grow my skills, and collaborate on projects that create a meaningful impact.
-            </p>
-            <a href="Hammad_Rizvi_CV.pdf" class="btn btn-primary mt-3">Download CV</a>
-        </div>
-    </div>
-</section>
-
-    <section id="projects" class="bg-light">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
-            <div class="text-center">
-                <p class="lead">New projects coming soon as I continue my learning journey!</p>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Hammad Rizvi</p>
-    </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
